@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import appLogo from '/favicon.svg'
-import PWABadge from './PWABadge.tsx'
+// import PWABadge from './PWABadge.tsx'
 import './App.css'
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>vite-pwa-5</h1>
+      <h1>vite-pwa-6</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -29,7 +29,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <PWABadge />
+      {/* <PWABadge /> */}
     </>
   )
 }
