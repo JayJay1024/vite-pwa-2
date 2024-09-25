@@ -4,7 +4,8 @@ import { useRegisterSW } from 'virtual:pwa-register/react'
 
 function PWABadge() {
   // check for updates every hour
-  const period = 60 * 60 * 1000
+  // const period = 60 * 60 * 1000
+  const period = 0
 
   const {
     offlineReady: [offlineReady, setOfflineReady],
