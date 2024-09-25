@@ -35,6 +35,8 @@ export default defineConfig({
       suppressWarnings: true,
       type: 'module',
     },
+
+    selfDestroying: true,
   })],
 
   build: {
