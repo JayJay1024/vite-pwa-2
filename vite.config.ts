@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [react(), VitePWA({
     registerType: 'prompt',
     injectRegister: false,
+    manifestFilename: "manifest.json",
 
     pwaAssets: {
       disabled: false,
