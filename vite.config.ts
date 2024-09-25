@@ -4,6 +4,8 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "",
+
   plugins: [react(), VitePWA({
     registerType: 'prompt',
     injectRegister: false,
@@ -34,4 +36,8 @@ export default defineConfig({
       type: 'module',
     },
   })],
+
+  build: {
+    sourcemap: true,
+  },
 })
