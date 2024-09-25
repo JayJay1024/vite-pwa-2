@@ -36,7 +36,7 @@ export default defineConfig({
       type: 'module',
     },
 
-    selfDestroying: true,
+    selfDestroying: false,
   })],
 
   build: {
